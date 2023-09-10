@@ -1,0 +1,363 @@
+2023-09-09 09:37:06.417 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 09:37:07.359 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-09 09:37:07.541 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-09 09:41:17.566 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 09:41:18.583 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-09 09:41:18.609 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-09 09:41:19.581 | ERROR    | translator.translation_chain:run:46 - An error occurred during translation: The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2023-09-09 09:41:20.073 | ERROR    | translator.translation_chain:run:46 - An error occurred during translation: The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2023-09-09 09:41:20.080 | DEBUG    | book.content:set_translation:54 - [translation]
+
+2023-09-09 09:41:20.138 | DEBUG    | book.content:set_translation:63 - [translated_df]
+Empty DataFrame
+Columns: []
+Index: []
+2023-09-09 09:41:20.143 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 09:41:20.146 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 09:41:20.149 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 10:06:31.090 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 10:06:32.003 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-09 10:06:32.267 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-09 10:06:33.343 | ERROR    | translator.translation_chain:run:46 - An error occurred during translation: The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2023-09-09 10:06:33.516 | ERROR    | translator.translation_chain:run:46 - An error occurred during translation: The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2023-09-09 10:06:33.566 | DEBUG    | book.content:set_translation:54 - [translation]
+
+2023-09-09 10:06:33.772 | DEBUG    | book.content:set_translation:63 - [translated_df]
+Empty DataFrame
+Columns: []
+Index: []
+2023-09-09 10:06:33.905 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 10:06:33.909 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 10:06:33.980 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 10:23:58.555 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 10:23:59.372 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-09 10:23:59.585 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-09 10:24:15.440 | DEBUG    | book.content:set_translation:54 - [translation]
+[水果, 颜色, 价格（美元）] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2023-09-09 10:24:15.498 | DEBUG    | book.content:set_translation:63 - [translated_df]
+    水果  颜色 价格（美元）
+0   苹果  红色    1.2
+1   香蕉  黄色    0.5
+2   橙子  橙色    0.8
+3   草莓  红色    2.5
+4   蓝莓  蓝色    3.0
+5  猕猴桃  绿色    1.0
+6   芒果  橙色    1.5
+7   葡萄  紫色   2.00
+2023-09-09 10:24:15.504 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 10:24:15.518 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 10:24:15.522 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 11:20:19.908 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\b2754b90fd0ff552049d8e275e3e5c6a27ece418\CH2EN.pdf
+源语言: Chinese
+目标语言: English
+2023-09-09 11:21:14.888 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 11:21:15.702 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-09 11:21:15.927 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-09 11:21:32.085 | DEBUG    | book.content:set_translation:54 - [translation]
+【水果，颜色，价格（美元）】
+【苹果，红色，1.20】
+【香蕉，黄色，0.50】
+【橙子，橙色，0.80】
+【草莓，红色，2.50】
+【蓝莓，蓝色，3.00】
+【猕猴桃，绿色，1.00】
+【芒果，橙色，1.50】
+【葡萄，紫色，2.00】
+2023-09-09 11:21:32.110 | DEBUG    | book.content:set_translation:63 - [translated_df]
+Empty DataFrame
+Columns: [水果，颜色，价格（美元）】
+【苹果，红色，1.20】
+【香蕉，黄色，0.50】
+【橙子，橙色，0.80】
+【草莓，红色，2.50】
+【蓝莓，蓝色，3.00】
+【猕猴桃，绿色，1.00】
+【芒果，橙色，1.50】
+【葡萄，紫色，2.00】]
+Index: []
+2023-09-09 11:21:32.124 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 11:21:32.133 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 11:21:32.138 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 11:22:46.141 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 11:22:46.874 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-09 11:22:46.913 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-09 11:23:05.671 | DEBUG    | book.content:set_translation:54 - [translation]
+[水果, 颜色, 价格（美元）] [苹果, 红色, 1.20] [香蕉, 黄色, 0.50] [橙子, 橙色, 0.80] [草莓, 红色, 2.50] [蓝莓, 蓝色, 3.00] [猕猴桃, 绿色, 1.00] [芒果, 橙色, 1.50] [葡萄, 紫色, 2.00]
+2023-09-09 11:23:05.695 | DEBUG    | book.content:set_translation:63 - [translated_df]
+    水果  颜色 价格（美元）
+0   苹果  红色    1.2
+1   香蕉  黄色    0.5
+2   橙子  橙色    0.8
+3   草莓  红色    2.5
+4   蓝莓  蓝色    3.0
+5  猕猴桃  绿色    1.0
+6   芒果  橙色    1.5
+7   葡萄  紫色   2.00
+2023-09-09 11:23:05.704 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 11:23:05.707 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 11:23:05.711 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\c5cc0131c29f7114f857f35f80acee041c1a4374\test_translated.md
+2023-09-09 11:24:01.542 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\e3184b65fbe4403526b5c51af42aae73cb159fa3\The_Old_Man_of_the_Sea_Simple.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 11:24:02.407 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ The Old Man and the Sea Asiaing.com
+The Old Man and the Sea
+By Ernest Hemingway
+www.Asiaing.com
+器
+辑
+To Charlie Shribner
+And 编
+To Max Perkins
+F
+He was an old man who fished alone in a skiff in the Gulf Stream and he had gone
+D
+eighty-four days now without taking a fish. In the first forty days a boy had been with him.
+But after forty days without a fish the boy’s parents had told him that the old man was
+now definitely and finally salaP o, which is the worst form of unlucky, and the boy had gone
+at their orders in another boat which caught three good fish the first week. It made the
+boy sad to see 捷the old man come in each day with his skiff empty and he always went
+down to help him carry either the coiled lines or the gaff and harpoon and the sail that
+was furled around the mast. The sail was patched with flour sacks and, furled, it looked
+like the flag of permanent defeat.
+迅
+The old man was thin and gaunt with deep wrinkles in the back of his neck. The
+brown blotches of the benevolent skin cancer the sun brings from its [9] reflection on the
+tropic sea were on his cheeks. The blotches ran well down the sides of his face and his
+hands had the deep-creased scars from handling heavy fish on the cords. But none of
+these scars were fresh. They were as old as erosions in a fishless desert.
+Everything about him was old except his eyes and they were the same color as the
+sea and were cheerful and undefeated.
+“Santiago,” the boy said to him as they climbed the bank from where the skiff was
+hauled up. “I could go with you again. We’ve made some money.”
+The old man had taught the boy to fish and the boy loved him.
+“No,” the old man said. “You’re with a lucky boat. Stay with them.”
+“But remember how you went eighty-seven days without fish and then we caught big
+ones every day for three weeks.”
+- 1 -
+2023-09-09 11:24:31.684 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 11:24:31.687 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\e3184b65fbe4403526b5c51af42aae73cb159fa3\The_Old_Man_of_the_Sea_Simple_translated.md
+2023-09-09 11:24:31.693 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\e3184b65fbe4403526b5c51af42aae73cb159fa3\The_Old_Man_of_the_Sea_Simple_translated.md
+2023-09-09 11:25:24.964 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\e3184b65fbe4403526b5c51af42aae73cb159fa3\The_Old_Man_of_the_Sea_Simple.pdf
+源语言: English
+目标语言: Chinese
+2023-09-09 11:25:25.562 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ The Old Man and the Sea Asiaing.com
+The Old Man and the Sea
+By Ernest Hemingway
+www.Asiaing.com
+器
+辑
+To Charlie Shribner
+And 编
+To Max Perkins
+F
+He was an old man who fished alone in a skiff in the Gulf Stream and he had gone
+D
+eighty-four days now without taking a fish. In the first forty days a boy had been with him.
+But after forty days without a fish the boy’s parents had told him that the old man was
+now definitely and finally salaP o, which is the worst form of unlucky, and the boy had gone
+at their orders in another boat which caught three good fish the first week. It made the
+boy sad to see 捷the old man come in each day with his skiff empty and he always went
+down to help him carry either the coiled lines or the gaff and harpoon and the sail that
+was furled around the mast. The sail was patched with flour sacks and, furled, it looked
+like the flag of permanent defeat.
+迅
+The old man was thin and gaunt with deep wrinkles in the back of his neck. The
+brown blotches of the benevolent skin cancer the sun brings from its [9] reflection on the
+tropic sea were on his cheeks. The blotches ran well down the sides of his face and his
+hands had the deep-creased scars from handling heavy fish on the cords. But none of
+these scars were fresh. They were as old as erosions in a fishless desert.
+Everything about him was old except his eyes and they were the same color as the
+sea and were cheerful and undefeated.
+“Santiago,” the boy said to him as they climbed the bank from where the skiff was
+hauled up. “I could go with you again. We’ve made some money.”
+The old man had taught the boy to fish and the boy loved him.
+“No,” the old man said. “You’re with a lucky boat. Stay with them.”
+“But remember how you went eighty-seven days without fish and then we caught big
+ones every day for three weeks.”
+- 1 -
+2023-09-09 11:25:57.135 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 11:25:57.139 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\e3184b65fbe4403526b5c51af42aae73cb159fa3\The_Old_Man_of_the_Sea_Simple_translated.md
+2023-09-09 11:25:57.143 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\e3184b65fbe4403526b5c51af42aae73cb159fa3\The_Old_Man_of_the_Sea_Simple_translated.md
+2023-09-09 11:45:01.192 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\2e60ffd834b003ad285979b3581b9a9492382734\CH2EN.pdf
+源语言: Chinese
+目标语言: English
+2023-09-09 11:45:01.565 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ 时间之外，我们的宇宙
+智子无言地看着程心，对于她的思维速度而言，这段时间可能有几个世纪那么长。很难想象软件算法
+能够产生这样复杂的目光和表情，显然，智子的A.I.软件把与程心相识以来的所有记忆数据都检索出来
+了，这数据有近两千万年的跨度，这所有的记忆都凝结在她的目光中，悲哀、敬佩、惊奇、责备、惋
+惜……种种复杂的感情混杂在一起。
+责任的阶梯
+智子通过647号宇宙的控制系统，操纵小宇宙处于大宇宙中的门，门在大宇宙中快速移动，寻
+找着适合生存的世界。门与小宇宙的通信能够传递的信息十分有限，不能传输图像，只能发
+器
+回对环境的评估结果，这是在负十到十之间的一个数字，表示环境的生存级别，只有级别大
+于零的环境，人类才能在其中生存。
+门在大宇宙中进行了上万次跳跃移动，这过程耗费了三个月，只有一次检测
+到一个三级环境，智子不得不承认，这就是最好的结果了。
+辑
+将进酒
+编
+唐 李白
+君不见，黄河之水天上来，奔流到海不复回。
+君不见，高堂明镜悲白发，朝如青丝暮成雪。
+F
+人生得意须尽欢，莫使金樽空对月。
+D
+天生我材必有用，千金散尽还复来。
+P
+烹羊宰牛且为乐，会须一饮三百杯。
+捷
+岑夫子，丹丘生，将进酒，杯莫停。
+与君歌一曲，请君为我倾耳听。
+迅
+钟鼓馔玉不足贵，但愿长醉不愿醒。
+古来圣贤皆寂寞，惟有饮者留其名。
+陈王昔时宴平乐，斗酒十千恣欢谑。
+主人何为言少钱，径须沽取对君酌。
+五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。
+钟鼓馔玉不足贵，但愿长醉不愿醒。
+古来圣贤皆寂寞，惟有饮者留其名。
+陈王昔时宴平乐，斗酒十千恣欢谑。
+主人何为言少钱，径须沽取对君酌。
+五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。
+2023-09-09 11:45:28.035 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 11:45:28.038 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\2e60ffd834b003ad285979b3581b9a9492382734\CH2EN_translated.md
+2023-09-09 11:45:28.041 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\2e60ffd834b003ad285979b3581b9a9492382734\CH2EN_translated.md
+2023-09-09 11:48:03.072 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\2e60ffd834b003ad285979b3581b9a9492382734\CH2EN.pdf
+源语言: Chinese
+目标语言: English
+2023-09-09 11:48:03.507 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ 时间之外，我们的宇宙
+智子无言地看着程心，对于她的思维速度而言，这段时间可能有几个世纪那么长。很难想象软件算法
+能够产生这样复杂的目光和表情，显然，智子的A.I.软件把与程心相识以来的所有记忆数据都检索出来
+了，这数据有近两千万年的跨度，这所有的记忆都凝结在她的目光中，悲哀、敬佩、惊奇、责备、惋
+惜……种种复杂的感情混杂在一起。
+责任的阶梯
+智子通过647号宇宙的控制系统，操纵小宇宙处于大宇宙中的门，门在大宇宙中快速移动，寻
+找着适合生存的世界。门与小宇宙的通信能够传递的信息十分有限，不能传输图像，只能发
+器
+回对环境的评估结果，这是在负十到十之间的一个数字，表示环境的生存级别，只有级别大
+于零的环境，人类才能在其中生存。
+门在大宇宙中进行了上万次跳跃移动，这过程耗费了三个月，只有一次检测
+到一个三级环境，智子不得不承认，这就是最好的结果了。
+辑
+将进酒
+编
+唐 李白
+君不见，黄河之水天上来，奔流到海不复回。
+君不见，高堂明镜悲白发，朝如青丝暮成雪。
+F
+人生得意须尽欢，莫使金樽空对月。
+D
+天生我材必有用，千金散尽还复来。
+P
+烹羊宰牛且为乐，会须一饮三百杯。
+捷
+岑夫子，丹丘生，将进酒，杯莫停。
+与君歌一曲，请君为我倾耳听。
+迅
+钟鼓馔玉不足贵，但愿长醉不愿醒。
+古来圣贤皆寂寞，惟有饮者留其名。
+陈王昔时宴平乐，斗酒十千恣欢谑。
+主人何为言少钱，径须沽取对君酌。
+五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。
+钟鼓馔玉不足贵，但愿长醉不愿醒。
+古来圣贤皆寂寞，惟有饮者留其名。
+陈王昔时宴平乐，斗酒十千恣欢谑。
+主人何为言少钱，径须沽取对君酌。
+五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。
+2023-09-09 11:48:31.722 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-09 11:48:31.725 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\2e60ffd834b003ad285979b3581b9a9492382734\CH2EN_translated.md
+2023-09-09 11:48:31.728 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: C:\Users\ADMINI~1\AppData\Local\Temp\2\gradio\2e60ffd834b003ad285979b3581b9a9492382734\CH2EN_translated.md
